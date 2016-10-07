@@ -1,6 +1,6 @@
 {
   "name": "mockery",
-  "version": "1.7.0",
+  "version": "1.7.0-redfin.1",
   "description": "Simplifying the use of mocks with Node.js",
   "keywords": [
     "mock",
@@ -53,5 +53,8 @@
       "type": "MIT",
       "url": "http://github.com/mfncooper/mockery/raw/master/LICENSE"
     }
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://npm.redfintest.com:4873"
+  }
 }
